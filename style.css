@@ -1,168 +1,202 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-  }
-  
-  .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
-  .navbar ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 17px;
-    padding-right: 24px;
-  }
-  
-  .jumbotron {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .jumbotron h1 {
-    font-size: 32px;
-    margin-top: 0;
-  }
-  
-  .jumbotron p {
-    font-size: 18px;
-    line-height: 1.5;
-  }
-  
-  .contact-button {
-    display: inline-block;
-    width: 200px;
-    margin-top: 20px;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contact-button:hover {
-    background-color: #555;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  footer p {
-    margin: 0;
-    font-size: 16px;
-  }
-  
-  footer a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  span{
-    color: black;
-    font-size: 54px;
-    text-decoration: bold;
-  }
-  #gst{
-    display: inline-block;
-    width: 200px;
-    margin-top: 20px;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  img{
-    margin-top: 15px;
-  }
-  #pin{
-    display:inline-block;
-    width:600px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-  #nav-image{
-    display:inline-block;
-    width:32px;
-    margin:auto;
-    padding-left: 1110px;
-  }
-  .product-section {
-    padding: 20px;
-    background-color: #f2f2f2;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  padding-right: 24px;
+}
+
+.jumbotron {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 32px;
+  margin-top: 0;
+}
+
+.jumbotron p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.contact-button {
+  display: inline-block;
+  width: 200px;
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+span {
+  color: black;
+  font-size: 54px;
+  text-decoration: bold;
+}
+
+#gst {
+  display: inline-block;
+  width: 200px;
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+img {
+  margin-top: 15px;
+}
+
+#pin {
+  display: inline-block;
+  width: 600px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#nav-image {
+  display: inline-block;
+  width: 32px;
+  margin: auto;
+  padding-left: 1110px;
+}
+
+.product-section {
+  padding: 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: 20%;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.product h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product img {
+  width: 20%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.product p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+@media (min-width: 768px) {
   .product {
-    width: 25%;
-    margin-bottom: 30px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    width: 48%;
   }
-  
-  .product h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .product img {
+}
+
+@media (min-width: 480px) {
+  .product {
     width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 4px;
   }
-  
-  .product p {
+}
+
+@media (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 28px;
+  }
+
+  .jumbotron p {
     font-size: 16px;
-    line-height: 1.5;
-    color: #555;
   }
-  
-  @media (max-width: 768px) {
-    .product {
-      width: 48%;
-    }
+
+  #product-heading {
+    margin-top: 155px;
   }
-  
-  @media (max-width: 480px) {
-    .product {
-      width: 100%;
-    }
+}
+
+@media (max-width: 480px) {
+  .navbar ul li a {
+    font-size: 15px;
+    padding-right: 16px;
   }
-  #product-heading{
-    display:flex;
-    justify-content: center;
-    margin-top: 255px;
+
+  .jumbotron h1 {
+    font-size: 24px;
   }
+
+  .jumbotron p {
+    font-size: 14px;
+  }
+
+  #product-heading {
+    margin-top: 105px;
+  }
+}
